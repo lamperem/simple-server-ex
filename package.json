@@ -1,0 +1,24 @@
+{
+  "name": "simple-server-ex",
+  "version": "1.0.0",
+  "description": "Basic Server based in https://blog.risingstack.com/node-hero-tutorial-getting-started-with-node-js/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lamperem/simple-server-ex.git"
+  },
+  "author": "Gustavo Lopez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lamperem/simple-server-ex/issues"
+  },
+  "homepage": "https://github.com/lamperem/simple-server-ex#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0"
+  }
+}
